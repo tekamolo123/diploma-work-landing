@@ -4,15 +4,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Мобільний застосунок для підбору туристичних турів</title>
-  <meta name="description" content="Лендинг бакалаврської роботи про мобільний застосунок для підбору туристичних турів, розроблений на Flutter.">
-  <meta name="keywords" content="Flutter, мобільний застосунок, туристичні тури, travel app, бакалаврська робота">
+
+  <meta
+    name="description"
+    content="Лендинг бакалаврської роботи про мобільний застосунок для підбору туристичних турів, розроблений на Flutter."
+  >
+  <meta
+    name="keywords"
+    content="Flutter, мобільний застосунок, туристичні тури, travel app, бакалаврська робота"
+  >
   <meta name="author" content="Леонід Раєв">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0f766e">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="uk_UA">
+  <meta property="og:title" content="Мобільний застосунок для підбору туристичних турів">
+  <meta
+    property="og:description"
+    content="Лендинг бакалаврської роботи про розробку Flutter-застосунку для підбору туристичних турів."
+  >
+  <meta property="og:url" content="https://tekamolo123.github.io/diploma-work-landing/">
+  <meta property="og:site_name" content="Travel App Landing">
+  <meta property="og:image" content="https://tekamolo123.github.io/diploma-work-landing/assets/images/og-preview.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Мобільний застосунок для підбору туристичних турів">
+  <meta
+    name="twitter:description"
+    content="Лендинг бакалаврської роботи про розробку мобільного застосунку для туристичних турів."
+  >
+  <meta name="twitter:image" content="https://tekamolo123.github.io/diploma-work-landing/assets/images/og-preview.jpg">
+
+  <link rel="canonical" href="https://tekamolo123.github.io/diploma-work-landing/">
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
   <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "Мобільний застосунок для підбору туристичних турів",
+      "author": {
+        "@type": "Person",
+        "name": "Леонід Раєв"
+      },
+      "inLanguage": "uk",
+      "educationalLevel": "Bachelor",
+      "publisher": {
+        "@type": "CollegeOrUniversity",
+        "name": "Сумський державний університет"
+      },
+      "url": "https://tekamolo123.github.io/diploma-work-landing/",
+      "about": "Розробка мобільного застосунку для підбору туристичних турів на Flutter"
+    }
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Перейти до основного вмісту</a>
+
   <header class="site-header">
     <div class="container site-header__inner">
-      <a class="site-logo" href="#hero">Travel App</a>
+      <a class="site-logo" href="#hero" aria-label="На початок сторінки">Travel App</a>
 
       <nav class="site-nav" aria-label="Основна навігація">
         <ul class="site-nav__list">
@@ -26,11 +80,11 @@
     </div>
   </header>
 
-  <main>
-    <section class="hero" id="hero">
+  <main id="main-content">
+    <section class="hero" id="hero" aria-labelledby="hero-title">
       <div class="container">
         <p class="hero__eyebrow">Бакалаврська робота</p>
-        <h1>Мобільний застосунок для підбору туристичних турів</h1>
+        <h1 id="hero-title">Мобільний застосунок для підбору туристичних турів</h1>
         <p class="hero__subtitle">
           Flutter-застосунок для реєстрації користувачів, пошуку туристичних турів,
           перегляду списку пропозицій та отримання детальної інформації про подорожі.
@@ -38,14 +92,22 @@
 
         <div class="hero__actions">
           <a class="button button--primary" href="#about">Дізнатися більше</a>
-          <a class="button button--secondary" href="https://github.com/tekamolo123/diploma_work_travel_app" target="_blank" rel="noopener noreferrer">Репозиторій</a>
+          <a
+            class="button button--secondary"
+            href="https://github.com/tekamolo123/diploma_work_travel_app"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Відкрити репозиторій основного проєкту на GitHub"
+          >
+            Репозиторій
+          </a>
         </div>
       </div>
     </section>
 
-    <section class="section" id="about">
+    <section class="section" id="about" aria-labelledby="about-title">
       <div class="container">
-        <h2>Про проєкт</h2>
+        <h2 id="about-title">Про проєкт</h2>
         <p>
           Проєкт присвячений розробці мобільного застосунку для підбору туристичних турів.
           Основна ідея полягає у створенні зручного інструмента, який дозволяє користувачу
@@ -59,9 +121,9 @@
       </div>
     </section>
 
-    <section class="section section--alt" id="relevance">
+    <section class="section section--alt" id="relevance" aria-labelledby="relevance-title">
       <div class="container">
-        <h2>Актуальність теми</h2>
+        <h2 id="relevance-title">Актуальність теми</h2>
         <p>
           Використання мобільних сервісів у сфері туризму є важливою складовою сучасної цифрової інфраструктури.
           Користувачі очікують швидкого доступу до інформації про подорожі, зручного перегляду пропозицій та
@@ -72,15 +134,15 @@
       </div>
     </section>
 
-    <section class="section" id="goal">
+    <section class="section" id="goal" aria-labelledby="goal-title">
       <div class="container">
-        <h2>Мета і завдання</h2>
+        <h2 id="goal-title">Мета і завдання</h2>
         <p>
           Метою роботи є розробка мобільного застосунку для підбору туристичних турів із базовими можливостями
           авторизації користувача, перегляду туристичних пропозицій, пошуку та відкриття детальної інформації про тур.
         </p>
 
-        <ul class="content-list">
+        <ul class="content-list" aria-label="Основні завдання проєкту">
           <li>спроєктувати базову структуру мобільного застосунку на Flutter;</li>
           <li>реалізувати навігацію між основними екранами застосунку;</li>
           <li>створити модулі реєстрації та входу користувача;</li>
@@ -90,48 +152,48 @@
       </div>
     </section>
 
-    <section class="section section--alt" id="features">
+    <section class="section section--alt" id="features" aria-labelledby="features-title">
       <div class="container">
-        <h2>Функціональні можливості</h2>
+        <h2 id="features-title">Функціональні можливості</h2>
         <div class="cards">
-          <article class="card">
-            <h3>Splash Screen</h3>
+          <article class="card" aria-labelledby="feature-splash-title">
+            <h3 id="feature-splash-title">Splash Screen</h3>
             <p>
               Під час запуску застосунку відображається стартовий екран, який виконує первинну перевірку стану користувача
               та визначає подальший маршрут переходу.
             </p>
           </article>
 
-          <article class="card">
-            <h3>Реєстрація та вхід</h3>
+          <article class="card" aria-labelledby="feature-auth-title">
+            <h3 id="feature-auth-title">Реєстрація та вхід</h3>
             <p>
               Користувач може створити новий обліковий запис, пройти перевірку введених даних і виконати вхід до застосунку.
             </p>
           </article>
 
-          <article class="card">
-            <h3>Перегляд списку турів</h3>
+          <article class="card" aria-labelledby="feature-list-title">
+            <h3 id="feature-list-title">Перегляд списку турів</h3>
             <p>
               На головному екрані відображається перелік туристичних турів із короткою інформацією для швидкого ознайомлення.
             </p>
           </article>
 
-          <article class="card">
-            <h3>Пошук турів</h3>
+          <article class="card" aria-labelledby="feature-search-title">
+            <h3 id="feature-search-title">Пошук турів</h3>
             <p>
               Передбачено пошук турів за назвою, країною та містом, що спрощує знаходження потрібної пропозиції.
             </p>
           </article>
 
-          <article class="card">
-            <h3>Сторінка деталей туру</h3>
+          <article class="card" aria-labelledby="feature-details-title">
+            <h3 id="feature-details-title">Сторінка деталей туру</h3>
             <p>
               Для кожного туру доступна окрема сторінка з розширеним описом, параметрами та додатковою інформацією.
             </p>
           </article>
 
-          <article class="card">
-            <h3>Подальше розширення</h3>
+          <article class="card" aria-labelledby="feature-growth-title">
+            <h3 id="feature-growth-title">Подальше розширення</h3>
             <p>
               Архітектура поточного прототипу дозволяє в майбутньому додати бронювання, збереження даних і розширену фільтрацію.
             </p>
@@ -140,10 +202,10 @@
       </div>
     </section>
 
-    <section class="section" id="technologies">
+    <section class="section" id="technologies" aria-labelledby="technologies-title">
       <div class="container">
-        <h2>Технології</h2>
-        <ul class="content-list">
+        <h2 id="technologies-title">Технології</h2>
+        <ul class="content-list" aria-label="Використані технології">
           <li><strong>Flutter</strong> — основний фреймворк для розробки мобільного застосунку;</li>
           <li><strong>Dart</strong> — мова програмування, використана для реалізації логіки застосунку;</li>
           <li><strong>Material Design</strong> — підхід до побудови інтерфейсу користувача;</li>
@@ -154,10 +216,10 @@
       </div>
     </section>
 
-    <section class="section section--alt" id="structure">
+    <section class="section section--alt" id="structure" aria-labelledby="structure-title">
       <div class="container">
-        <h2>Структура застосунку</h2>
-        <ul class="content-list">
+        <h2 id="structure-title">Структура застосунку</h2>
+        <ul class="content-list" aria-label="Основні модулі застосунку">
           <li><strong>App / Routes</strong> — налаштування запуску застосунку та маршрутів переходу;</li>
           <li><strong>Splash Page</strong> — стартовий екран застосунку;</li>
           <li><strong>Login Page</strong> — сторінка входу користувача;</li>
@@ -170,9 +232,9 @@
       </div>
     </section>
 
-    <section class="section" id="prospects">
+    <section class="section" id="prospects" aria-labelledby="prospects-title">
       <div class="container">
-        <h2>Перспективи розвитку</h2>
+        <h2 id="prospects-title">Перспективи розвитку</h2>
         <p>
           Поточна версія застосунку є функціональним прототипом. У майбутньому проєкт може бути вдосконалений шляхом
           підключення бази даних, реалізації повноцінного бронювання, додавання фільтрів, обраного, історії дій користувача,
@@ -181,26 +243,38 @@
       </div>
     </section>
 
-    <section class="section section--alt" id="contacts">
+    <section class="section section--alt" id="contacts" aria-labelledby="contacts-title">
       <div class="container">
-        <h2>Контакти</h2>
-        <ul class="info-list">
-          <li><strong>Автор:</strong> Леонід Раєв (Leonid Raiev)</li>
-          <li><strong>Група:</strong> ІН-22/2</li>
-          <li><strong>Університет:</strong> Сумський державний університет</li>
-          <li>
-            <strong>Посилання на репозиторій:</strong>
-            <a href="https://github.com/tekamolo123/diploma_work_travel_app" target="_blank" rel="noopener noreferrer">
-              github.com/tekamolo123/diploma_work_travel_app
-            </a>
-          </li>
-          <li>
-            <strong>Посилання на пояснювальну записку:</strong>
-            <a href="https://github.com/tekamolo123/diploma_work_travel_app/blob/main/README.md" target="_blank" rel="noopener noreferrer">
-              Відкрити README
-            </a>
-          </li>
-        </ul>
+        <h2 id="contacts-title">Контакти</h2>
+        <address class="contacts-address">
+          <ul class="info-list">
+            <li><strong>Автор:</strong> Леонід Раєв (Leonid Raiev)</li>
+            <li><strong>Група:</strong> ІН-22/2</li>
+            <li><strong>Університет:</strong> Сумський державний університет</li>
+            <li>
+              <strong>Посилання на репозиторій:</strong>
+              <a
+                href="https://github.com/tekamolo123/diploma_work_travel_app"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Відкрити репозиторій основного проєкту"
+              >
+                github.com/tekamolo123/diploma_work_travel_app
+              </a>
+            </li>
+            <li>
+              <strong>Посилання на пояснювальну записку:</strong>
+              <a
+                href="https://github.com/tekamolo123/diploma_work_travel_app/blob/main/README.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Відкрити пояснювальну записку у README"
+              >
+                Відкрити README
+              </a>
+            </li>
+          </ul>
+        </address>
       </div>
     </section>
   </main>

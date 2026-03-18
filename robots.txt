@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-username.github.io/diploma-work-landing/sitemap.xml
+Sitemap: https://tekamolo123.github.io/diploma-work-landing/sitemap.xml

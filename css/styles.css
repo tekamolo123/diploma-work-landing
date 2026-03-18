@@ -30,6 +30,22 @@ a {
   margin: 0 auto;
 }
 
+.skip-link {
+  position: absolute;
+  top: -48px;
+  left: 16px;
+  z-index: 100;
+  padding: 12px 16px;
+  border-radius: 10px;
+  background-color: #0f172a;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 16px;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -52,6 +68,13 @@ a {
   font-weight: 700;
   color: #0f172a;
   text-decoration: none;
+}
+
+.site-logo:focus,
+.site-nav__list a:focus,
+.button:focus {
+  outline: 3px solid #14b8a6;
+  outline-offset: 3px;
 }
 
 .site-nav__list {
@@ -194,6 +217,10 @@ a {
 .card p {
   margin: 0;
   color: #475569;
+}
+
+.contacts-address {
+  font-style: normal;
 }
 
 .site-footer {
