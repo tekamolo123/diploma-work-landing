@@ -73,6 +73,7 @@
           <li><a href="#about">Про проєкт</a></li>
           <li><a href="#goal">Мета і завдання</a></li>
           <li><a href="#features">Функціонал</a></li>
+          <li><a href="#gallery">Галерея</a></li>
           <li><a href="#technologies">Технології</a></li>
           <li><a href="#contacts">Контакти</a></li>
         </ul>
@@ -82,32 +83,54 @@
 
   <main id="main-content">
     <section class="hero" id="hero" aria-labelledby="hero-title">
-      <div class="container">
-        <p class="hero__eyebrow">Бакалаврська робота</p>
-        <h1 id="hero-title">Мобільний застосунок для підбору туристичних турів</h1>
-        <p class="hero__subtitle">
-          Flutter-застосунок для реєстрації користувачів, пошуку туристичних турів,
-          перегляду списку пропозицій та отримання детальної інформації про подорожі.
-        </p>
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="hero__eyebrow">Бакалаврська робота</p>
+          <h1 id="hero-title">Мобільний застосунок для підбору туристичних турів</h1>
+          <p class="hero__subtitle">
+            Flutter-застосунок для реєстрації користувачів, пошуку туристичних турів,
+            перегляду списку пропозицій та отримання детальної інформації про подорожі.
+          </p>
 
-        <div class="hero__actions">
-          <a class="button button--primary" href="#about">Дізнатися більше</a>
-          <a
-            class="button button--secondary"
-            href="https://github.com/tekamolo123/diploma_work_travel_app"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Відкрити репозиторій основного проєкту на GitHub"
+          <div class="hero__actions">
+            <a class="button button--primary" href="#about">Дізнатися більше</a>
+            <a
+              class="button button--secondary"
+              href="https://github.com/tekamolo123/diploma_work_travel_app"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Відкрити репозиторій основного проєкту на GitHub"
+            >
+              Репозиторій
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <img
+            src="assets/images/hero-travel.jpg"
+            alt="Ілюстрація на тему подорожей для презентації мобільного застосунку туристичних турів"
           >
-            Репозиторій
-          </a>
         </div>
       </div>
     </section>
 
     <section class="section" id="about" aria-labelledby="about-title">
       <div class="container">
-        <h2 id="about-title">Про проєкт</h2>
+        <div class="section-heading">
+          <img
+            class="section-heading__logo"
+            src="assets/images/logo-sumdu.png"
+            alt="Логотип Сумського державного університету"
+          >
+          <div>
+            <h2 id="about-title">Про проєкт</h2>
+            <p class="section-heading__text">
+              Освітній проєкт, присвячений розробці мобільного застосунку для підбору туристичних турів.
+            </p>
+          </div>
+        </div>
+
         <p>
           Проєкт присвячений розробці мобільного застосунку для підбору туристичних турів.
           Основна ідея полягає у створенні зручного інструмента, який дозволяє користувачу
@@ -202,7 +225,44 @@
       </div>
     </section>
 
-    <section class="section" id="technologies" aria-labelledby="technologies-title">
+    <section class="section" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <h2 id="gallery-title">Галерея екранів застосунку</h2>
+        <p class="gallery-intro">
+          Нижче наведено основні екрани мобільного застосунку, які демонструють логіку роботи користувацького сценарію:
+          від запуску застосунку до перегляду деталей туристичного туру.
+        </p>
+
+        <div class="gallery-grid">
+          <figure class="gallery-card">
+            <img src="assets/images/screenshot-splash.png" alt="Стартовий splash screen мобільного застосунку">
+            <figcaption>Splash Screen</figcaption>
+          </figure>
+
+          <figure class="gallery-card">
+            <img src="assets/images/screenshot-login.png" alt="Екран входу користувача в застосунок">
+            <figcaption>Login Page</figcaption>
+          </figure>
+
+          <figure class="gallery-card">
+            <img src="assets/images/screenshot-registration.png" alt="Екран реєстрації нового користувача">
+            <figcaption>Registration Page</figcaption>
+          </figure>
+
+          <figure class="gallery-card">
+            <img src="assets/images/screenshot-home.png" alt="Головний екран зі списком туристичних турів">
+            <figcaption>Home Page</figcaption>
+          </figure>
+
+          <figure class="gallery-card">
+            <img src="assets/images/screenshot-details.png" alt="Екран детальної інформації про туристичний тур">
+            <figcaption>Tour Details Page</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="technologies" aria-labelledby="technologies-title">
       <div class="container">
         <h2 id="technologies-title">Технології</h2>
         <ul class="content-list" aria-label="Використані технології">
@@ -216,7 +276,7 @@
       </div>
     </section>
 
-    <section class="section section--alt" id="structure" aria-labelledby="structure-title">
+    <section class="section" id="structure" aria-labelledby="structure-title">
       <div class="container">
         <h2 id="structure-title">Структура застосунку</h2>
         <ul class="content-list" aria-label="Основні модулі застосунку">
@@ -232,7 +292,7 @@
       </div>
     </section>
 
-    <section class="section" id="prospects" aria-labelledby="prospects-title">
+    <section class="section section--alt" id="prospects" aria-labelledby="prospects-title">
       <div class="container">
         <h2 id="prospects-title">Перспективи розвитку</h2>
         <p>
@@ -243,7 +303,7 @@
       </div>
     </section>
 
-    <section class="section section--alt" id="contacts" aria-labelledby="contacts-title">
+    <section class="section" id="contacts" aria-labelledby="contacts-title">
       <div class="container">
         <h2 id="contacts-title">Контакти</h2>
         <address class="contacts-address">
